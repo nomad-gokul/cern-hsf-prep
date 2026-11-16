@@ -1,0 +1,33 @@
+# Private study notes (never pushed)
+notes/
+
+# Data
+*.root
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.zip
+data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated build / HLS projects
+build/
+*_prj/
+hls4ml_prj*/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.DS_Store
